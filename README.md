@@ -1,4 +1,4 @@
-# Turnout – platformă pentru coordonarea voluntarilor și a ONG-urilor
+# VolunteerHub – platformă pentru coordonarea voluntarilor și a ONG-urilor
 
 ## 1. Descrierea proiectului
 
@@ -24,7 +24,6 @@ Aplicația prelucrează date personale (nume, e-mail, telefon, istoricul activit
 ## 2. Problema abordată
 
 Multe ONG-uri își gestionează activitatea prin foi Excel, grupuri de WhatsApp și e-mailuri. Aceasta duce la:
-
 - date împrăștiate și greu de actualizat (cine e voluntar activ, cine s-a înscris la ce eveniment);
 - evenimente prost organizate (prea puțini sau prea mulți voluntari, lipsa resurselor);
 - rapoarte realizate manual, consumatoare de timp;
@@ -47,68 +46,62 @@ Aplicația se adresează atât persoanelor care participă la activitățile unu
 **Cine este:** o persoană care dorește să se implice în activități comunitare, de la elevi și studenți până la angajați sau pensionari. Poate fi la prima experiență sau poate participa regulat.
 
 **Nevoi:**
-
 - să afle ușor ce evenimente există și când au loc;
 - să se înscrie rapid, fără apeluri sau mesaje multiple;
 - să știe exact ce are de făcut, unde și la ce oră;
 - să aibă o dovadă a orelor de voluntariat (utilă, de exemplu, pentru CV sau pentru credite academice);
 - să aibă control asupra datelor sale personale.
 
-**În aplicație:** își creează profilul, caută evenimente (după oraș, dată și competențe), se înscrie la o sarcină, primește confirmări și remindere, își vede istoricul, totalul orelor și starea fiecărei participări (înscris, prezent, absent), descarcă o adeverință cu orele efectuate și își poate exporta sau șterge datele.
+**În aplicație:** își creează profilul, caută și se înscrie la evenimente, primește confirmări și remindere, își vede istoricul și totalul orelor, își poate exporta sau șterge datele.
 
 ### 4.2. Coordonatorul de voluntari
 
 **Cine este:** persoana din ONG responsabilă de organizarea activităților. Este adesea tot un voluntar sau un angajat cu normă redusă, care lucrează sub presiunea timpului.
 
 **Nevoi:**
-
 - să planifice evenimente fără să țină evidența pe foi separate;
 - să vadă în timp real câți voluntari s-au înscris și dacă mai are nevoie de oameni;
 - să aloce materialele și echipamentele necesare;
 - să confirme prezența și să înregistreze orele efectuate;
 - să creeze campanii și să vadă cum evoluează.
 
-**În aplicație:** creează și editează evenimente (cu sarcini) și campanii, administrează înscrierile, alocă resurse, confirmă participarea și importă voluntari sau resurse dintr-un fișier CSV.
+**În aplicație:** creează și editează evenimente și campanii, administrează înscrierile, alocă resurse, confirmă participarea.
 
 ### 4.3. Administratorul ONG-ului
 
 **Cine este:** reprezentantul organizației (președinte, manager sau responsabil financiar), care răspunde de activitate în fața membrilor, a finanțatorilor și a autorităților.
 
 **Nevoi:**
-
 - să vadă o imagine de ansamblu asupra activității (voluntari activi, evenimente, fonduri strânse);
 - să genereze rapoarte rapid, pentru finanțatori sau pentru rapoartele anuale;
 - să controleze cine are acces la ce date;
 - să se asigure că organizația respectă GDPR.
 
-**În aplicație:** gestionează conturile și rolurile (creează coordonatori, dezactivează conturi), consultă și exportă rapoarte, verifică donațiile și consultă jurnalul de audit.
-
+**În aplicație:** gestionează conturile și rolurile, consultă și exportă rapoarte, verifică donațiile .
 ### 4.4. Donatorul
 
 **Cine este:** o persoană sau o firmă care vrea să sprijine financiar o cauză. Poate fi și voluntar, dar nu neapărat.
 
 **Nevoi:**
-
 - să înțeleagă clar pentru ce se strâng fondurile;
 - să vadă cât s-a strâns față de obiectiv și că banii contează;
 - să doneze simplu, fără formalități excesive;
 - să știe ce se întâmplă cu datele sale.
 
-**În aplicație:** vede campaniile active și progresul lor, face donații (și poate alege să doneze anonim), își consultă istoricul donațiilor.
+**În aplicație:** vede campaniile active și progresul lor, face donații, își consultă istoricul donațiilor.
+
 
 ## 5. Funcționalități propuse
 
 - Autentificare și gestionarea conturilor pe roluri
 - Profil voluntar (competențe, disponibilitate)
-- Creare și administrare evenimente cu sarcini, căutare și filtrare, înscriere pe sarcini și confirmare participare
+- Creare și administrare evenimente, înscriere și confirmare participare
 - Creare campanii cu obiectiv de fonduri și perioadă
 - Înregistrarea și urmărirea donațiilor
 - Gestionarea resurselor (materiale, echipamente, săli)
-- Rapoarte și statistici (export CSV, PDF opțional) și import CSV de voluntari și resurse
-- Adeverință de voluntariat cu orele efectuate
+- Rapoarte și statistici (export CSV/PDF)
 - Notificări prin e-mail
-- Module GDPR: consimțământ, export și ștergere date personale, jurnal de audit
-- Interfață responsive, utilizabilă și pe telefon
+- Module GDPR: consimțământ, export și ștergere date personale
 
 ## 6. Tehnologii alese
 
@@ -118,9 +111,6 @@ Aplicația se adresează atât persoanelor care participă la activitățile unu
 | Backend | Node.js + Express (API REST) |
 | Bază de date | PostgreSQL |
 | Autentificare | JWT + parole hash-uite (bcrypt) |
-| Notificări | Nodemailer + node-cron |
-| Documente PDF | PDFKit |
-| Teste | Jest + Supertest |
 | Versionare | Git + GitHub |
 | Documentație | Markdown, diagrame Mermaid |
 
@@ -139,8 +129,7 @@ Echipa este formată din două persoane. Responsabilitățile sunt împărțite 
 
 - stabilirea tehnologiilor și a strategiei de versionare;
 - revizuirea reciprocă a documentelor și a Pull Request-urilor;
-- testarea aplicației.
-
+- testarea aplicației
 ## 8. Documentație
 
 - [Cerințe funcționale și nefuncționale](docs/requirements.md)
