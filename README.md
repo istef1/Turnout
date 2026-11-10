@@ -1,4 +1,4 @@
-# VolunteerHub – platformă pentru coordonarea voluntarilor și a ONG-urilor
+# Turnout – platformă pentru coordonarea voluntarilor și a ONG-urilor
 
 ## 1. Descrierea proiectului
 
