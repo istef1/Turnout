@@ -12,7 +12,7 @@ Scenariile:
 
 ---
 
-## UC1. Înregistrare și autentificare
+## 1. Înregistrare și autentificare
 
 **Actor:** vizitator  
 **Cerințe:** RF1, RF2, RF3, RF27  
@@ -37,7 +37,7 @@ Scenariile:
 
 ---
 
-## UC2. Căutarea unui eveniment și înscrierea
+## 2. Căutarea unui eveniment și înscrierea
 
 **Actor:** voluntar  
 **Cerințe:** RF6, RF7, RF8, RF9, RF10, RF26  
@@ -68,7 +68,7 @@ Scenariile:
 
 ---
 
-## UC3. Donația către o campanie
+## 3. Donația către o campanie
 
 **Actor:** utilizator autentificat (donator)  
 **Cerințe:** RF15, RF16, RF17, RF27  
@@ -95,7 +95,7 @@ Scenariile:
 
 ---
 
-## UC4. Panoul coordonatorului și exportul
+## 4. Panoul coordonatorului și exportul
 
 **Actor:** coordonator  
 **Cerințe:** RF3, RF11, RF12, RF18, RF22, RF23  
@@ -120,7 +120,7 @@ Scenariile:
 
 ---
 
-## UC5. Gestionarea datelor personale (GDPR)
+## 5. Gestionarea datelor personale (GDPR)
 
 **Actor:** orice utilizator autentificat  
 **Cerințe:** RF4, RF28, RF29, RF30  
