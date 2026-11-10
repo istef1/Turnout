@@ -2,14 +2,13 @@
 
 [← Înapoi la README](../README.md)
 
-Scenariile urmează ecranele din [prototipul Figma](wireframes/README.md). Pentru fiecare scenariu sunt descrise:
+Scenariile:
 - actorul și precondițiile;
 - pașii;
 - rezultatul așteptat;
 - cazurile de eroare;
 - cum se verifică.
 
-Datele din exemple sunt cele din prototip.
 
 ---
 
@@ -44,7 +43,7 @@ Datele din exemple sunt cele din prototip.
 **Cerințe:** RF6, RF7, RF8, RF9, RF10, RF26  
 **Ecrane:** [03 Evenimente](wireframes/03-evenimente.png) → [04 Detaliu eveniment](wireframes/04-detaliu-eveniment.png) → [05 Înscris](wireframes/05-detaliu-eveniment-inscris.png)
 
-**Precondiții:** evenimentul „Plantare în Parcul Tineretului” (18 mai, 09:00–13:00, București, Sector 4) are 12 locuri libere.
+**Precondiții:** evenimentul „Plantare în Parcul Rozelor” (18 mai, 09:00–13:00, Timisoara, Sector 4) are 12 locuri libere.
 
 **Pași:**
 1. Maria alege locația „București” din filtru și scrie „plantare” în căutare.
