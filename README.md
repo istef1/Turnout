@@ -130,11 +130,4 @@ Echipa este formată din două persoane. Responsabilitățile sunt împărțite 
 - stabilirea tehnologiilor și a strategiei de versionare;
 - revizuirea reciprocă a documentelor și a Pull Request-urilor;
 - testarea aplicației
-## 8. Documentație
 
-- [Cerințe funcționale și nefuncționale](docs/requirements.md)
-- [Scenarii de utilizare](docs/use-cases.md)
-- [Wireframe-uri și fluxuri de navigare](docs/wireframes/README.md)
-- [Arhitectura aplicației](docs/architecture.md)
-- [Modelul de date și endpoint-uri](docs/data-model.md)
-- [Plan de implementare](docs/implementation-plan.md)
