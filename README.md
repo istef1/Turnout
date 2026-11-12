@@ -19,7 +19,7 @@ Turnout oferă un singur loc în care:
 
 ### Protecția datelor
 
-Aplicația prelucrează date personale (nume, e-mail, telefon, istoricul activității), așa că respectarea GDPR este parte din concept, nu o adăugire ulterioară. Utilizatorii își dau consimțământul la înregistrare, accesul la date este limitat în funcție de rol, se colectează doar datele necesare, iar fiecare persoană își poate descărca sau șterge datele din cont. Acțiunile asupra datelor personale sunt înregistrate într-un jurnal de audit.
+Aplicația prelucrează date personale (nume, e-mail, telefon, istoricul activității), așa că respectarea GDPR este parte din concept. Utilizatorii își dau consimțământul la înregistrare, accesul la date este limitat în funcție de rol, se colectează doar datele necesare, iar fiecare persoană își poate descărca sau șterge datele din cont.
 
 ## 2. Problema abordată
 
